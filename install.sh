@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # create temporary install list
-cat pacman.txt > temp.pac
-cat aur.txt > temp.aur
+cat packs/pacman.txt > temp.pac
+cat packs/aur.txt > temp.aur
 
 
 # install nvidia drivers if nececarry
