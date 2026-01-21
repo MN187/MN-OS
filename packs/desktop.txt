@@ -11,3 +11,10 @@ xdg-desktop-portal-gtk.deskto
 xdg-desktop-portal-gnome.desktop
 qvidcap.desktop
 qv4l2.desktop
+rofi.desktop
+rofi-theme-selector.desktop
+xgpsspeed.desktop
+xgps.desktop
+xdg-desktop-portal-gtk.desktop
+org.gnupg.pinentry-qt5.desktop
+org.gnupg.pinentry-qt.desktop
