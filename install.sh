@@ -48,7 +48,6 @@ chsh -s /usr/bin/fish
 
 
 #remove useless .Desktop files
-cd /usr/share/applications
 while read -r f; do sudo rm -f "/usr/share/applications/$f"; done < temp.des
 
 
