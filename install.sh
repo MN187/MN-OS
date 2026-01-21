@@ -5,7 +5,7 @@ set -euo pipefail
 # create temporary install list
 cat packs/pacman.txt > temp.pac
 cat packs/aur.txt > temp.aur
-
+cat packs/desktop.txt > temp.des
 
 # install nvidia drivers if nececarry
 echo
@@ -45,6 +45,12 @@ sudo rm -r pipes.sh
 sudo locale-gen
 
 chsh -s /usr/bin/fish
+
+
+#remove useless .Desktop files
+cd /usr/share/applications
+while read -r f; do sudo rm -f "/usr/share/applications/$f"; done < temp.des
+
 
 # apply services
 sudo systemctl disable getty@tty1.service
