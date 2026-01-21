@@ -1,0 +1,13 @@
+xfce4-about.desktop
+org.gnome.Nautilus.desktop
+nautilus-autorun-software.desktop
+thunar-settings.desktop
+thunar-bulk-rename.desktop
+mimeinfo.cache
+bvnc.desktop
+bssh.desktop
+avahi-discover.desktop
+xdg-desktop-portal-gtk.deskto
+xdg-desktop-portal-gnome.desktop
+qvidcap.desktop
+qv4l2.desktop
