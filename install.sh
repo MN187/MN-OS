@@ -62,6 +62,7 @@ sudo systemctl disable getty@tty3.service
 sudo systemctl enable ly@tty1.service
 sudo systemctl enable ly@tty2.service
 sudo systemctl enable ly@tty3.service
+systemctl enable bluetooth
 
 echo
 read -p "MN-OS installed. Reboot now? [y/n] " -n 1 -r
