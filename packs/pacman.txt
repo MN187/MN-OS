@@ -2,6 +2,8 @@ alacritty
 amd-ucode
 base
 base-devel
+bluez
+bluetui
 btrfs-progs
 cava
 cliphist
@@ -15,6 +17,8 @@ ly
 matugen
 neovim
 niri
+pipewire
+pipewire-pulse
 rofi
 sudo
 swww
@@ -23,6 +27,7 @@ ttf-hack-nerd
 ttf-nerd-fonts-symbols-common
 waybar
 wev
+wireplumber
 wl-clipboard
 xorg-server
 xorg-xauth
