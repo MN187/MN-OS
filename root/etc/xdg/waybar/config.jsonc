@@ -4,8 +4,8 @@
   "height": 24, // Waybar height
   // "width": 1366, // Waybar width
   // Choose the order of the modules
-  "modules-left": ["sway/workspaces", "sway/mode", "custom/spotify"],
-  "modules-center": ["sway/window"],
+  "modules-left": ["niri/workspaces", "niri/mode", "custom/spotify"],
+  "modules-center": ["niri/window"],
   "modules-right": [
     "pulseaudio",
     "network",
@@ -15,7 +15,7 @@
     "tray",
     "clock",
   ],
-  "sway/workspaces": {
+  "niri/workspaces": {
     "disable-scroll": true,
     "all-outputs": false,
     "format": "{icon}",
@@ -31,7 +31,7 @@
       "default": "",
     },
   },
-  "sway/mode": {
+  "niri/mode": {
     "format": "<span style=\"italic\">{}</span>",
   },
   "tray": {
