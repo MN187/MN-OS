@@ -521,6 +521,10 @@ binds {
     Mod+Ctrl+8 { move-column-to-workspace 8; }
     Mod+Ctrl+9 { move-column-to-workspace 9; }
 
+
+    Mod+W hotkey-overlay-title="Open Wifi-Menu" { spawn "alacritty" "-e" "impala"; }
+    Mod+B hotkey-overlay-title="Open Bluetooth-Menu" { spawn "alacritty" "-e" "bluetui"; }
+
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+1 { move-window-to-workspace 1; }
 
