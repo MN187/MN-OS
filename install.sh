@@ -53,6 +53,9 @@ chsh -s /usr/bin/fish
 #remove useless .Desktop files
 sudo bash -c 'while read -r f; do rm -f "/usr/share/applications/$f"; done < temp.des'
 
+#copy Wallpaper
+sudo mkdir -p /usr/share/wallpapers
+sudo cp wp/cph.gif /usr/share/wallpapers
 
 # apply services
 systemctl --user enable pipewire pipewire-pulse wireplumber
