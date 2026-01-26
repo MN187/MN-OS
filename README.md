@@ -34,7 +34,8 @@ Follow the official [Arch Linux Installation Guide](https://wiki.archlinux.org/t
 - `git` installed
 - At least one non-root user with sudo privileges
 
-- clone the repo `https://github.com/MN187/MN-OS`
+Clone the repo with  
+`git clone https://github.com/MN187/MN-OS`
 - `cd MN-OS`
 - `chmod +x install.sh`
 - install using `./install.sh`
