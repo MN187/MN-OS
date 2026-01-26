@@ -48,4 +48,4 @@ Follow the official [Arch Linux Installation Guide](https://wiki.archlinux.org/t
 > The Wallpaper will not be set on the first launch  
 > to change the wallpaper press `Mod + T`
 > run `swww img /usr/share/wallpapers/cph.gif` to set wallpaper
-> or for own wallpaper run `swww img /path/to/img/file`
+> for own wallpaper run `swww img /path/to/img/file`
