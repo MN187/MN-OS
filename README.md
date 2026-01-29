@@ -48,5 +48,5 @@ Clone the repo with
 > [!IMPORTANT]  
 > The Wallpaper will not be set on the first launch  
 > to change the wallpaper press `Mod + T`
-> run `swww img /usr/share/wallpapers/cph.gif` to set wallpaper  
-> for own wallpaper run `swww img /path/to/img/file`
+> run `awww img /usr/share/wallpapers/cph.gif` to set wallpaper  
+> for own wallpaper run `awww img /path/to/img/file`
