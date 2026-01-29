@@ -21,7 +21,6 @@ pipewire
 pipewire-pulse
 rofi
 sudo
-swww
 thunar
 ttf-hack-nerd
 ttf-nerd-fonts-symbols-common
