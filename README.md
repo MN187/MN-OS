@@ -1,4 +1,4 @@
-# MN-OS
+# MNA-OS
 
 [What is this?](#what-is-this)  
 [Installing](#installing)    
